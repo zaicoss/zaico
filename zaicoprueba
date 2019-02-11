@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+</head>
+
+<body>
+<marquee>texto que se mueve</marquee>
+
+<form id="form1" name="form1" method="post" action="calculorfc2.php">
+  <table width="654" height="329" border="1">
+    <tr>
+      <td width="171">Nombre</td>
+      <td width="191"><label>
+        <input name="txtnom" type="text" id="txtnom" />
+      </label></td>
+      <td width="172">CALCULAR RFC </td>
+      <td width="25">&nbsp;</td>
+      <td width="25">&nbsp;</td>
+      <td width="30">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Paterno</td>
+      <td><input name="txtpat" type="text" id="txtpat" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Materno</td>
+      <td><input name="txtmat" type="text" id="txtmat" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>fecha nac </td>
+      <td><input name="txtnac" type="text" id="txtnac" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>homoclave</td>
+      <td><input name="txtclave" type="text" id="txtclave" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><label>
+        <input type="submit" name="Submit" value="Enviar" />
+      </label></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+
+
+</body>
+</html>
